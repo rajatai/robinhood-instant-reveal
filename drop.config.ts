@@ -87,7 +87,10 @@ export const config: DropConfig = {
 
   // Optional collection level metadata, served at /contract.json. Only needed
   // if your contract's contractURI() points at this server.
-  contractMetadata: null,
-};
+  contractMetadata: {
+  name: "Shadow Realms",
+  description: "A collection of 3000 chunky pixel-art shadow characters.",
+  image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
+},
 
 export default config;
