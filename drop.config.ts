@@ -81,7 +81,7 @@ export const config: DropConfig = {
   placeholder: {
     name: "Unrevealed #{tokenId}",
     description: "This one has not been minted yet. Artwork appears here the moment it is.",
-    image: "ipfs://REPLACE_WITH_YOUR_PLACEHOLDER_IMAGE_CID",
+    image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
     attributes: [],
   },
 
