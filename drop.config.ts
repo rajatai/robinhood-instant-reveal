@@ -92,3 +92,4 @@ export const config: DropConfig = {
   description: "A collection of 3000 chunky pixel-art shadow characters.",
   image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
 },
+};
