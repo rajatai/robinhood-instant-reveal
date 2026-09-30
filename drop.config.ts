@@ -11,18 +11,18 @@ export const config: DropConfig = {
   // Which chain your drop is on: ethereum, base, matic, arbitrum, optimism,
   // sei, ape_chain, and others. See src/chains.ts for the full list, or set
   // RPC_URL and use any chain you like.
-  chain: "base",
+  chain: "robinhood",
 
   // Your drop contract. OpenSea Studio shows this on the drop's page, and it
   // is in the URL of the collection on opensea.io.
-  contract: "0x0000000000000000000000000000000000000000",
+  contract: "0xacc1af18a8766e7fe12350c81e3d02306f4f4421",
 
   // The first token ID your contract mints. OpenSea Studio drops start at 1.
   tokenIdStart: 1,
 
   // How many tokens exist in total. This has to match maxSupply() on the
   // contract. `npm run preflight` checks that for you.
-  maxSupply: 1000,
+  maxSupply: 3000,
 
   reveal: {
     // "on-mint" is the point of this repository: each token becomes visible the
