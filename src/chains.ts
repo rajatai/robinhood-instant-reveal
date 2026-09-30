@@ -16,6 +16,10 @@ export type ChainInfo = {
 export const CHAINS: Record<string, ChainInfo> = {
   ethereum: { chainId: 1, defaultRpcUrl: "https://ethereum-rpc.publicnode.com" },
   base: { chainId: 8453, defaultRpcUrl: "https://base-rpc.publicnode.com" },
+  robinhood: {
+  chainId: 4663,
+  defaultRpcUrl: "https://rpc.mainnet.chain.robinhood.com",
+},
   matic: { chainId: 137, defaultRpcUrl: "https://polygon-bor-rpc.publicnode.com" },
   polygon: {
     chainId: 137,
