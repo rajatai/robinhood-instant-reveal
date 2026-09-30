@@ -29,8 +29,7 @@ jobs:
           echo "Isi ZIP:"
           find extracted -maxdepth 2 -type f | head -20
 
-          find extracted -type f -name "*.json" -exec cp {} metadata/ \;
-
+          find extracted -type f -name "*.json" ! -name "collection.json" -exec cp {} metadata/ \;
       - name: Show metadata count
         run: |
           echo "Jumlah metadata:"
