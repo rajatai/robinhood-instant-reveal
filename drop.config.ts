@@ -15,7 +15,7 @@ export const config: DropConfig = {
 
   // Your drop contract. OpenSea Studio shows this on the drop's page, and it
   // is in the URL of the collection on opensea.io.
-  contract: "0x5b298d3bed27a91f5237c6697f4757ebe0d3bc58",
+  contract: "0xf2e46b9738a334294537f36a6904754929abeba8",
 
   // The first token ID your contract mints. OpenSea Studio drops start at 1.
   tokenIdStart: 1,
