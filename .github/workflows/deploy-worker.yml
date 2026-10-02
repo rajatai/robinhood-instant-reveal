@@ -30,6 +30,12 @@ jobs:
       - name: Build manifest
         run: npm run build:manifest
 
+      - name: Set RPC secret in Cloudflare
+        run: printf "%s" "$RPC_URL" | npx wrangler secret put RPC_URL
+        env:
+          RPC_URL: ${{ secrets.RPC_URL }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Deploy to Cloudflare
         run: npm run deploy
         env:
