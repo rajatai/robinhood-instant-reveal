@@ -80,16 +80,17 @@ export const config: DropConfig = {
   // these strings. Every token shows this until it mints.
   placeholder: {
     name: "Unrevealed #{tokenId}",
-    description: "This one has not been minted yet. Artwork appears here the moment it is.",
+    description:
+      "This one has not been minted yet. Artwork appears here the moment it is.",
     image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
     attributes: [],
   },
 
-    // Optional collection level metadata, served at /contract.json. Only needed
+  // Optional collection level metadata, served at /contract.json. Only needed
   // if your contract's contractURI() points at this server.
-    contractMetadata: {
-  name: "Shadow Realms",
-  description: "A collection of 3000 chunky pixel-art shadow characters.",
-  image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
-},
+  contractMetadata: {
+    name: "Shadow Realms",
+    description: "A collection of 3000 chunky pixel-art shadow characters.",
+    image: "ipfs://bafybeiervpjarniqapkuld5blvyraz6pcuze5scjlfc5lpz375ig3gc6nm",
+  },
 };
