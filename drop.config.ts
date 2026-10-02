@@ -73,7 +73,7 @@ export const config: DropConfig = {
     // If your metadata files carry a relative image path like "images/17.png",
     // put the IPFS or HTTPS prefix here. Leave empty when your files already
     // contain full URIs, which is the normal case.
-    imageBaseUri: "",
+    imageBaseUri: "https://shadow-realms-images.vercel.app/",
   },
 
   // What an unminted token looks like. {tokenId} is substituted anywhere in
